@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    margin-left: hidden;
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    width: 60%;
+    background-color: teal;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.instruction {
+    color: rgb(238, 130, 130);
+    font-weight: bold;
+    text-decoration: underline;
+}

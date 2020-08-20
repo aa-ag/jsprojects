@@ -32,16 +32,16 @@ function results() {
     if(pcChosen === userChosen) {
         return result = "Tie -- go again!";
     } else if (pcChosen === "rock" && userChosen === "paper") {
-        return result = "you LOST...";
-    } else if (pcChosen === "rock" && userChosen === "scissors") {
         return result = "you WON this time ;)";
+    } else if (pcChosen === "rock" && userChosen === "scissors") {
+        return result = "you LOST...";
     } else if (pcChosen === "paper" && userChosen === "rock") {
         return result = "you LOST...";
     } else if (pcChosen === "paper" && userChosen === "scissors") {
         return result = "you WON this time ;)";
     } else if (pcChosen === "scissors" && userChosen === "rock") {
-        return result = "you LOST...";
-    } else if (pcChosen === "scissors" && userChosen === "paper") {
         return result = "you WON this time ;)";
+    } else if (pcChosen === "scissors" && userChosen === "paper") {
+        return result = "you LOST...";
     };
 };
