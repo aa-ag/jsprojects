@@ -20,3 +20,10 @@ main {
     font-weight: bold;
     text-decoration: underline;
 }
+
+button {
+    background-color: rgb(29, 29, 29);
+    color: rgb(238, 236, 236);
+    padding: 4px;
+    border-radius: 6px;
+}
