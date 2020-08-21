@@ -4,7 +4,6 @@ body {
     font-family: 'Muli';
     padding: 0;
     margin: 0;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +14,9 @@ body {
     margin-top: 2%;
     border: 1 solid #333333;
     width: 90vw;
-    height: 90vh;
+    height: 90%;
+    padding-bottom: 5vh;
+    margin-bottom: 4vh;
     border-radius: 6px;
     background-color: rgb(233, 233, 233);
     box-shadow: 0px 0px 10px 0px rgb(159, 159, 159);
@@ -33,4 +34,19 @@ body {
     width: 80vw;
     box-shadow:0px 0px 2px 2px rgba(43, 43, 43, 0.515);
     border-radius: 6px;
+}
+
+#map-north {
+    margin: auto;
+    margin-top: 3vh;
+    padding-bottom: 50px;
+    height: 75vh;
+    width: 80vw;
+    box-shadow:0px 0px 2px 2px rgba(43, 43, 43, 0.515);
+    border-radius: 6px;
+}
+
+a {
+    font-weight: 1200;
+    color: #545252;
 }
