@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", ()=> {
                 lat: 24.5465,
                 lng: -81.7975
             },
-            zoom: 16,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            zoom: 21,
+            mapTypeId: 'satellite'
         });
     });
     s.src = `https://maps.googleapis.com/maps/api/js?key=${MAPKEY}`;
