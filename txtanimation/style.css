@@ -9,6 +9,8 @@ body {
     display: flex;
     color: #ffffff;
     height: 100vh;
+    padding-left: 3vw;
+    padding-top: 3vw;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
     url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthoughtcatalog.files.wordpress.com%2F2018%2F05%2Fthalassophobia.jpg%3Fw%3D1200%26resize%3D1200%2C800%26quality%3D95%26strip%3Dall%26crop%3D1&f=1&nofb=1');
     background-size: cover;
