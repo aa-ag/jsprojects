@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    color: #ffffff;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+    url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthoughtcatalog.files.wordpress.com%2F2018%2F05%2Fthalassophobia.jpg%3Fw%3D1200%26resize%3D1200%2C800%26quality%3D95%26strip%3Dall%26crop%3D1&f=1&nofb=1');
+    background-size: cover;
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after {
+    position: absolute;
+    content: "";
+    right: -5px;
+    width: 1px;
+    height: 7%;
+    border-right: 2px solid #ffffff;
+    animation: blink 0.8s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
