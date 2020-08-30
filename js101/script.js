@@ -17,3 +17,7 @@ function biggerFont() {
 function normalFont() {
     document.querySelector('body').style.fontSize='20px';
 };
+
+function hideAll() {
+    document.querySelector('body').style.display="none"
+};
