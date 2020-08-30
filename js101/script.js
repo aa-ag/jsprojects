@@ -21,3 +21,5 @@ function normalFont() {
 function hideAll() {
     document.querySelector('body').style.display="none"
 };
+
+window.alert("Are you sure you want to visit this website?");
