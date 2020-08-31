@@ -23,3 +23,13 @@ function hideAll() {
 };
 
 window.alert("Are you sure you want to visit this website?");
+
+function bigImg(x) {
+    x.style.height = "120px";
+    x.style.width = "120px";
+};
+
+function normalImg(x) {
+    x.style.height = "60px";
+    x.style.height = "60px";
+};
