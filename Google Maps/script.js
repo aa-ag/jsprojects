@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
                 lat: 24.5465,
                 lng: -81.7975
             },
-            zoom: 21,
+            zoom: 15,
             mapTypeId: 'satellite'
         });
         northMost = new google.maps.Map(document.getElementById("map-north"), {

@@ -27,6 +27,7 @@ window.alert("Are you sure you want to visit this website?");
 function bigImg(x) {
     x.style.height = "120px";
     x.style.width = "120px";
+    x.style.border = "1px solid red";
 };
 
 function normalImg(x) {
