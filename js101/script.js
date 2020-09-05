@@ -24,6 +24,8 @@ function hideAll() {
 
 window.alert("Are you sure you want to visit this website?");
 
+window.prompt("Well, helloooo!")
+
 function bigImg(x) {
     x.style.height = "120px";
     x.style.width = "120px";
